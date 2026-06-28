@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Portfolio</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header, section, footer {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        nav a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #0066cc;
+            font-weight: bold;
+        }
+        blockquote {
+            background: #f9f9f9;
+            border-left: 5px solid #0066cc;
+            margin: 1.5em 10px;
+            padding: 0.5em 10px;
+        }
+        code, samp {
+            background: #e0e0e0;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: monospace;
+        }
+        var {
+            font-style: italic;
+            color: #d63384;
+        }
+        figure {
+            text-align: center;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        figcaption {
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 5px;
+        }
+        details {
+            background: #f1f1f1;
+            padding: 10px;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+        summary {
+            font-weight: bold;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hi, I'm a passionate Full-Stack Developer specializing in building optimized web applications. 
+            I love writing clean <abbr title="HyperText Markup Language">HTML</abbr> and scalable JavaScript. 
+            My core philosophy is simple: <mark>Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.</mark>
+        </p>
+        
+        <blockquote>
+            "Computers are good at following instructions, but not at reading your mind."
+            <br>
+            <cite>— Donald Knuth</cite>
+        </blockquote>
+    </section>
+
+    <section id="projects">
+        <h2>Featured Project</h2>
+        
+        <figure>
+            <div style="background: #0066cc; color: white; padding: 40px; text-align: center; font-weight: bold;">
+                Algorithm Visualizer Dashboard v2.0<sup>Beta</sup>
+            </div>
+            <figcaption>Figure 1: UI Dashboard for the sorting algorithm visualizer engine.</figcaption>
+        </figure>
+
+        <p>
+            I recently optimized a sorting script where the time complexity was reduced from 
+            O(n<sub>1</sub><sup>2</sup>) to O(n<sub>2</sub> log n).
+        </p>
+
+        <p>
+            To execute the system initialization, run the function <code>initApplication(<var>config</var>)</code> in your terminal. 
+            If successful, the system will output: <samp>Success: Connection established to cluster_A</samp>.
+        </p>
+    </section>
+
+    <section id="experience">
+        <h2>Technical Deep-Dive</h2>
+        
+        <details>
+            <summary>View My Core Stack & Tooling</summary>
+            <p>
+                I actively build architectures utilizing Node.js, React, Docker, and AWS ecosystem tools. 
+                I focus heavily on semantic layouts, web accessibility (<abbr title="Web Accessibility Initiative">WAI</abbr>), and runtime performance optimizations.
+            </p>
+        </details>
+    </section>
+</body>
+</html>
